@@ -3,7 +3,9 @@
 goruck = {americanjacket => 325, ruckinggrid => 135, bullet => 155}
 
 def key_for_min_value(goruck)
-  
-  goruck.each do |item, value|
+  lowest_item = 0
+  lowest_value = nil
 
+  goruck.each do |item, value|
+    if 
 end
