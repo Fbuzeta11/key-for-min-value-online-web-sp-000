@@ -4,6 +4,6 @@ goruck = {americanjacket => 325, ruckinggrid => 135, bullet => 155}
 
 def key_for_min_value(goruck)
   
-  goruck.each do |
+  goruck.each do |item, value|
 
 end
