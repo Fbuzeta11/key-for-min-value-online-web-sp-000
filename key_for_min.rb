@@ -7,5 +7,10 @@ def key_for_min_value(goruck)
   lowest_value = nil
 
   goruck.each do |item, value|
-    if 
+    if lowest_value == 0 || value < lowest_value
+      lowest_value = value 
+      lowest_item = item
+    end
+  end
+  lowest_item
 end
